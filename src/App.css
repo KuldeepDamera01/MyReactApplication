@@ -1,0 +1,136 @@
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+h2{
+  color:#C40303;
+}
+
+.cityList {
+  padding-right: 44px;;
+}
+
+.cityInfo {
+  margin-bottom: 5px;
+  padding: 10px;
+  border: 1px solid;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.cityInfo.good {
+  background-color: #4BC619;
+  color: #000000;
+  border-color: #4BC619;
+}
+
+.cityInfo.satisfactory {
+  background-color: #8EE117;
+  color: #000000;
+  border-color: #F3EC19;
+}
+
+.cityInfo.moderate {
+  background-color: #F3EC19;
+  color: #FFFFFF;
+  border-color: #F57E20;
+}
+
+.cityInfo.poor {
+  background-color: #F5A128;
+  color: #FFFFFF;
+  border-color: #F5A128;
+}
+
+.cityInfo.very-poor {
+  background-color: #EE4B2B;
+  color: #FFFFFF;
+  border-color: #EE4B2B;
+}
+
+.cityInfo.severe {
+  background-color: #C40303;
+  color: #FFFFFF;
+  border-color: #C40303;
+}
+
+.cityInfo.unknown {
+  background-color: #ebebeb;
+  color: #000000;
+  border-color: #ebebeb;
+}
+
+.cityInfo .details {
+  background-color: #ebebeb;
+  color: #000000;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+.dot {
+  height: 12px;
+  width: 14px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 3px;
+  margin-top: 2px;
+}
+
+.dot.unknown {
+  background-color: #bbb;
+}
+
+.dot.good {
+  background-color: #4BC619;
+}
+
+.dot.satisfactory {
+  background-color: #8EE117;
+}
+
+.dot.moderate {
+  background-color: #F3EC19;
+}
+
+.dot.poor {
+  background-color: #F5A128;
+}
+
+.dot.very-poor {
+  background-color: #EE4B2B;
+}
+
+.dot.severe {
+  background-color: #C40303;
+}
+
+.no-data-found {
+  background-color: rgb(65, 215, 241);
+  color: #ff3b0a;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  border: solid;
+  border-width: 1px 1px 0 1px;
+  margin: 0 5px 0 0;
+  font-size: medium;
+  font-weight: 600;
+  padding: 10px;
+}
